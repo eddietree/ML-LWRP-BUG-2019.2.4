@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:ml="magicleap" ml:package="com.DefaultCompany.MLLWRPBUG" ml:version_code="1" ml:version_name="">
-  <application ml:sdk_version="1.0" ml:visible_name="ML LWRP BUG" ml:min_api_level="4">
-    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="ML LWRP BUG">
+<manifest xmlns:ml="magicleap" ml:package="com.funktroniclabs.mlrepro" ml:version_code="1" ml:version_name="">
+  <application ml:sdk_version="1.0" ml:visible_name="mlrepro" ml:min_api_level="4">
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="mlrepro">
       <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
     </component>
     <uses-privilege ml:name="LowLatencyLightwear" />
