@@ -13,8 +13,6 @@
 			{
 				CGPROGRAM
 
-				#pragma prefer_hlslcc gles
-				#pragma exclude_renderers d3d11_9x
 				#pragma target 2.0
 
 				#pragma vertex vert
@@ -54,7 +52,7 @@
 					UNITY_TRANSFER_INSTANCE_ID(v, o);
 					UNITY_INITIALIZE_VERTEX_OUTPUT_STEREO(o);
 			
-					// THIS IS how LWRP does UNLIT vertex input => clip space
+					// THIS IS how LWRP does UNLIT vertex input => clip space (but still  does not work)
 					//VertexPositionInputs vertexInput = GetVertexPositionInputs(v.vertex.xyz);
 					//float3 positionWS = TransformObjectToWorld(v.vertex.xyz);
 					//float4 positionCS = TransformWorldToHClip(positionWS);
