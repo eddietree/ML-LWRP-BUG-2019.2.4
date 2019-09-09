@@ -640,7 +640,7 @@ PlayerSettings:
     m_ModelFolderPath: 
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: 
+    m_CertPath: D:\github\ar-spiritloops\SpiritLoops-Unity\Assets\01_Building\MagicLeap\privatekey-device\spiritloops.cert
     m_SignPackage: 1
   luminIsChannelApp: 0
   luminVersion:
